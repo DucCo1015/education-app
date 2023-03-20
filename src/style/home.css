@@ -1,0 +1,262 @@
+.left{
+ width:350px;
+ margin-top: 40px;
+}
+.left__title{
+ font-size: 2rem;
+ font-weight: 600;
+ margin-bottom: 25px;
+}
+.left__content{
+ font-size: 1rem;
+}
+.left__input{            
+  border: 1px solid #333;
+  border-radius: 50px;
+}
+.left__input input{
+ margin-left: 20px;
+ border: none;
+ outline: none;
+}
+.left__input button{
+ position: relative;
+ right: -58px;
+ padding:5px 20px;
+ border-radius: 50px;
+ border: 1px solid #fff;
+ background-color: #19c2a2;
+ color: #fff;
+}
+.subscribe__content span i{
+ font-size: 1.5rem;
+ line-height: 50px;
+ margin-right: 10px;
+}
+.home__subscribe{
+  flex-wrap: wrap;
+}
+.popular{
+  margin-top: -40px;
+}
+.subscribe__content h5{
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.about__img img{
+  border-radius: 10px;
+  padding-right: 20px;
+}
+.about__title{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.about__desc{
+  font-size: 1rem;
+}
+.about__box{
+  margin-right: 40px;
+}
+.about__box-title{
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.about__box-desc{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.popular__title{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.popular__content{
+ margin-top: 20px;
+}
+.popular__content p{
+  font-size: 1rem;
+}
+.content__btn{
+ width:100px;
+ height:30px;
+ background: #19c2a2;
+ color: #fff;
+ border: none;
+ outline: none;
+ border-radius: 50px;
+ font-weight: 600;
+}
+.popular__card{
+  margin-top: 40px;
+}
+.popular__card-img img{
+  border-radius: 10px;
+}
+.title__card{
+ font-size: 1rem;
+}
+.card__body h5{
+  font-size: 1rem;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.card__body span i {
+  color: #19c2a2;
+}
+.title__card{
+  margin-top: 20px;
+}
+.content__link{
+  color: #19c2a2;
+}
+.choose__title{
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+.choose__content{
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.choose__right{
+  position: relative;
+}
+.choose__img img{
+  border-radius: 10px;
+  z-index: -10;
+}
+.choose__icon{
+  width:50px;
+  height:50px;
+  line-height: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+}
+.choose__icon span i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border: 2px solid #19c2a2;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.box span i{
+  font-size: 2.5rem;
+}
+.box__content-title{
+  font-size: 1rem;
+  margin-top: 10px; 
+}
+.free__course h3{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.free__course-box{
+  position: relative;
+  margin-bottom: 15px;
+}
+.free__course-box img{
+  border-radius: 10px;
+}
+.course__btn{
+  position: absolute;
+  bottom: -15px;
+  right: 30px;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  background: #19c2a2;
+  color: #fff;
+  border-radius: 50px;
+}
+.course__content-title{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.course__des{
+  margin-top: 15px;
+  margin-right: 50px;
+}
+.course__des h5{
+  font-size: 1rem;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.student__voice img{
+  width: 90%;
+}
+.carousel__title{
+  margin-bottom: 20px;
+}
+.subscribe{
+  background: #19c2a2;
+  text-align: center;
+  padding: 50px 0px;
+  border-radius: 10px;
+}
+.subscribe__title{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.input__box{
+  text-align: center;
+  padding: 10px 25px;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+.input__box input{
+ width: 100%;
+ border: none;
+ outline: none;
+ padding: 10px 25px;
+ border-radius: 50px;
+}
+.subscribe__btn{
+  position: absolute;
+  top: 15px;
+  right:30px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #19c2a2;
+  color: #fff;
+  font-weight: 500;
+}
+
+
+@media only screen and (max-width: 768px){
+  .left{
+    margin: auto;
+  }
+  .left__title{
+    font-size: 1.5rem;
+  }
+  .left__content{
+    font-size: 0.8rem;
+  }
+  .right__img img{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:576px){
+  .subscribe__content h5{
+    font-size: 0.8rem;
+  }
+  .subscribe__content span i{
+    font-size: 1rem;
+  }
+}
+
